@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Javier Mendoza" />
+    <meta name="description" content="portfolio web javier mendoza" />
+    <meta name="keywords" content="HTML, CSS,JavaScript,React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Front end web development</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./Img/icono.png" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"
+            ><img src="./Img/icono.png" width="50" alt="logo"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactos">contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero align-items-stretch">
+      <div
+        class="hero-principal flex-column d-flex justify-content-center align-items-center"
+      >
+        <img
+          class="hero-image-developer"
+          src="./Img/imagenes-desarrolladores/desarrollador-ejemplo.svg"
+          alt="Javier Photo"
+        />
+        <h1>Hello I'm Javier Mendoza</h1>
+        <h2>I develop websites and write programming articles</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="./Img/hero-inferior.svg"
+          alt="logos and laptop"
+        />
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section id="about-me" class="about-me seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Meet Javier Mendoza</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+          similique beatae? Laborum neque tenetur recusandae inventore quos at
+          velit ducimus. Ab, assumenda consequatur aliquid nesciunt minima quia
+          sint adipisci laudantium! Similique voluptatibus illum obcaecati
+          necessitatibus optio distinctio, impedit doloremque veritatis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur ad laborum itaque non dolorem explicabo! Fugiat ullam
+              nemo minima odit blanditiis alias! Perferendis animi quod ex
+              laborum nemo veniam ad, nam iusto officiis, dignissimos ipsam
+              placeat corporis tempore, quia qui?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Javascript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articles -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Articulos</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur ad laborum itaque non dolorem explicabo! Fugiat ullam
+              nemo minima odit blanditiis alias! Perferendis animi quod ex
+              laborum nemo veniam ad, nam iusto officiis, dignissimos ipsam
+              placeat corporis tempore, quia qui?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur ad laborum itaque non dolorem explicabo! Fugiat ullam
+              nemo minima odit blanditiis alias! Perferendis animi quod ex
+              laborum nemo veniam ad, nam iusto officiis, dignissimos ipsam
+              placeat corporis tempore, quia qui?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Ingeniero Mecánico</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">My recent projects...</h2>
+      <h3 class="seccion-descripcion">These are some of my projects...</h3>
+
+      <!-- Galería de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto1.png" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto2.png" alt="Proyecto 2" />
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto3.png" alt="Proyecto 3" />
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto4.png" alt="Proyecto 4" />
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto5.png" alt="Proyecto 5" />
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Img/proyecto6.png" alt="Proyecto 6" />
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://www.github.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          More projects
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articles</h2>
+      <div class="card">
+        <div class="card-header">Mas Recientes</div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">
+              El decorador @property en python-como usarlo ventajas y sintaxis
+            </li>
+          </a>
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">
+              Phyton tutorial ciclos whilw - while true ejemplos
+            </li>
+          </a>
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Ohyton como leer articulos JSON</li>
+          </a>
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">¿Para que se usa phyron?</li>
+          </a>
+        </ul>
+      </div>
+      <a
+        href="https://www.freecodecamp.org/espanol/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          More Articles
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonials</h2>
+      <h3 class="seccion-descripcion">
+        These are some testimonials from my clients...
+      </h3>
+
+      <!-- Carrusel -->
+      <div id="Testimonios-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./Img/cliente1.svg"
+                alt="Foto de Ivonne Galeano Peña"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis,
+                accusamus reiciendis? Asperiores ut nemo distinctio eius nam
+                recusandae non reiciendis.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Web development project manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./Img/cliente2.svg"
+                alt="Foto de Ivonne America"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis,
+                accusamus reiciendis? Asperiores ut nemo distinctio eius nam
+                recusandae non reiciendis.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">America</p>
+                <p class="cargo">Web development project manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./Img/cliente3.svg"
+                alt="Foto de Ivonne Leonard"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis,
+                accusamus reiciendis? Asperiores ut nemo distinctio eius nam
+                recusandae non reiciendis.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonard</p>
+                <p class="cargo">director of antiracism</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#Testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#Testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contactos" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container rectangulo text-center d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">Let's talk</div>
+            <div class="col-12 col-md-4 descripcion">
+              Contact me to start your web development project.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:javiermendoza1690@gmail.com">
+                <button type="button">
+                  contact
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer and Social Networks -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img class="footer-logo" src="./Img/icono-blanco.svg" alt="logo haha" />
+      <p class="footer-texto text-center">I learn and grow every day</p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/freecodecampES"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/freecodecamp/freecodecamp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:correo@micorreo.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+
+      <div class="derechos-de-autor">Created by Javier Mendoza (2022) &#169</div>
+    </footer>
+    <!-- script de bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
